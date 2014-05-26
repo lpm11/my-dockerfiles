@@ -3,6 +3,9 @@
 FROM bradrydzewski/python:2.7
 MAINTAINER lpm11
 
+# Fix rbenv error
+ADD rbenv.sh /etc/drone.d/rbenv.sh
+
 # Install dependencies
 RUN sudo apt-get update && sudo apt-get install gfortran libblas-dev liblapack-dev libatlas-dev
 
