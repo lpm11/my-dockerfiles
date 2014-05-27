@@ -1,4 +1,4 @@
-FROM lpm11/python-scientific-via-drone:2.7
+FROM lpm11/python-sci-via-drone-2.7
 MAINTAINER lpm11
 
 # Install packages
